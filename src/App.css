@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: #333;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;   /* All links to left */
+  align-items: center;
+  gap: 20px;   /* space between links */
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-item.active {
+  font-weight: bold;
+  border-bottom: 2px solid yellow;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-right: 10px;
+  background: #0077ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* User List */
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #f1f1f1;
+  border-radius: 4px;
+}
